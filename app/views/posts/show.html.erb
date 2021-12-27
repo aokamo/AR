@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<%= attachment_image_tag @post, :image, size: "128x72" %>
+
 <p>
   <strong>Title:</strong>
   <%= @post.title %>
