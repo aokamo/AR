@@ -57,5 +57,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #画像ファイル投稿
 gem "refile", require: "refile/rails", github: 'manfe/refile'
-#画像かこう
+#画像加工
 gem "refile-mini_magick"
