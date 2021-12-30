@@ -61,3 +61,5 @@ gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 #ユーザー認証
 gem 'devise'
+#ページネーション
+gem 'kaminari'
