@@ -63,6 +63,3 @@ gem "refile-mini_magick"
 gem 'devise'
 #ページネーション
 gem 'kaminari'
-
-gem 'bootstrap', '~> 4.5'
-gem 'jquery-rails'
