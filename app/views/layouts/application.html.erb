@@ -7,7 +7,7 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    #bootstrap
+    # bootstrap
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     #fontawesome
@@ -15,7 +15,7 @@
   </head>
 
   <body>
-  <%= render 'layours/header' %>
+  <%= render 'layouts/header' %>
     <%= yield %>
     <%= render 'layouts/footer' %>
   </body>
