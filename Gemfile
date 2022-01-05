@@ -63,3 +63,5 @@ gem "refile-mini_magick"
 gem 'devise'
 #ページネーション
 gem 'kaminari'
+
+gem 'jquery-rails'
