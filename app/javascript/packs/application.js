@@ -15,3 +15,6 @@ ActiveStorage.start()
 //bootstrap追加
 import 'bootstrap'
 import '../stylesheets/application'
+
+// uikit追加
+require("uikit")
