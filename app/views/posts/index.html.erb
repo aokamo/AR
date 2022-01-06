@@ -7,8 +7,9 @@
     <tr>
       <th></th>
       <th>Title</th>
-      <th>Text</th>
-      <th colspan="3"></th>
+      <th></th>
+      <th></th>
+      <th></th>
     </tr>
   </thead>
 
@@ -17,7 +18,6 @@
       <tr>
         <td><%= attachment_image_tag post, :image, size: "128x72" %></td>
         <td><%= post.title %></td>
-        <td><%= post.text %></td>
         <td><%= link_to 'Show', post %></td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
         <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: '本当に削除しますか？' } %></td>
