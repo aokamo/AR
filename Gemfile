@@ -67,6 +67,7 @@ gem 'kaminari'
 gem 'jquery-rails'
 #マークダウン記法
 gem 'redcarpet'
+#シンタックスハイライト
 
 #バックエンド
 
